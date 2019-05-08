@@ -8,7 +8,7 @@ function sumDigits(numbers) {
 function multiplyDigits(arrayPartiallNumbers) {
   const result = arrayPartiallNumbers.map(function(number, index) {
     if (index % 2 === 0) {
-      let multiplyNumbers = number * 2;
+      const multiplyNumbers = number * 2;
       return multiplyNumbers > 9 ? multiplyNumbers - 9 : multiplyNumbers;
     } else return number;
   });
