@@ -16,7 +16,7 @@ $  npm install validatorcard-lib-js
 
 ```node
 
-> const cardValidator = require('validatorcard-lib-js');
+> const cardValidator = require('validatorcard-lib-js')
 > console.log(cardValidator.cardValidator('4539983237489397'))
 > // return "true"
 > console.log(cardValidator.cardValidator('4539983237489'))
