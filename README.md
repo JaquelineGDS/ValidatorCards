@@ -8,7 +8,7 @@ Na versão atual é capaz de verificar se o numéro do cartão de crédito com 1
 
 ```shell
 
-$  npm install validadorCard
+$  npm install validatorCard-lib-js
 
 ```
 
@@ -16,7 +16,7 @@ $  npm install validadorCard
 
 ```node
 
-> const cardValidator = require('validadorCard');
+> const cardValidator = require('validatorCard-lib-js');
 > console.log(cardValidator.cardValidator('4539983237489397'))
 > // return "true"
 > console.log(cardValidator.cardValidator('4539983237489'))
