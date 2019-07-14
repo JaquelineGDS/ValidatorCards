@@ -1,7 +1,7 @@
 # Validação de cartão de crédito
 
 
-**Esta biblioteca se destina à validação de numeros de cartão de crédito.**
+**Esta biblioteca se destina à validação de números de cartão de crédito.**
 Na versão atual é capaz de verificar se o numéro do cartão de crédito com 14, 15 ou 16 dígitos é válido ou invalido.
 
 ## Como instalar:
